@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Drawing Requests</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        section {
+            padding: 2rem;
+        }
+       
+        .examples img {
+            max-width: 300px; /* Sets the maximum width */
+            height: auto;     /* Keeps the aspect ratio */
+            display: block;
+            margin: 1rem 0;
+        }
+     
+        .examples p {
+            font-style: italic;
+        }
+        
+        /* Style for the Google Form iframe */
+        .form-container {
+            margin-top: 1rem;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            padding: 1rem;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Art Space Website</h1>
+        <p>Request a custom portrait or browse examples of our work.</p>
+    </header>
+
+    <section id="examples">
+        <h2>Examples of My Work</h2>
+        <div class="examples">
+            <img src="https://drive.google.com/uc?export=download&id=1I_-UyA9VKNJ2XjU5yuWzk3U6X-ZXr3u0" alt="Sample Portrait from Google Drive">
+            <img src="https://drive.google.com/uc?export=download&id=1IOdnE8neRJ8RL-BGNrwjHgR2oySSKpuL" alt="Sample Portrait 2 from Google Drive">
+            <p>This is another portrait example from Google Drive.</p>
+        </div>
+    </section>
+
+    <section id="request">
+        <h2>Request a Portrait</h2>
+        <p>Submit your request for a portrait here:</p>
+        <div class="form-container">
+            <!-- Replace this iframe src with your Google Form embed code -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfTIyPnADWb5f8nWrBYh1-Lqe-T4Yt1RhVwqbPKuCOx8jV2Gw/viewform?usp=sf_link" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+    </section>
+</body>
+</html>
